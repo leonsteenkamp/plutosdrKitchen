@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "PlutoSDR",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/vagrant/pluto-v0.30.sysroot/usr/include/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

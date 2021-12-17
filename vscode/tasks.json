@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello",
+            "problemMatcher": [
+                "$eslint-compact"
+            ]
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "arm-linux-gnueabihf-gcc -mfloat-abi=hard  --sysroot=/home/vagrant/pluto-v0.30.sysroot -std=gnu99 -g -o pluto_stream ad9361-iiostream.c -lpthread -liio -lm -Wall -Wextra",
+            "problemMatcher": [
+            ]
+        },
+
+    ]
+}
