@@ -5,7 +5,7 @@ The instructions and _Linaro_ toolchain from [2] was used for this virtual
 machine (VM) config. It is recommended to read the Quick Start guide at [1].
 
 ## Getting started
-_The `$` character indicates terminal commands_
+_The `$` character indicates terminal/power shell commands, depending in where you installed Vagrant_
 
 The _bootstrap.sh_ script will be run when the virtual machine (VM) starts and 
 downloads the toolchain and sysroot, then configures the environment.
